@@ -1,0 +1,36 @@
+/* Personalizando Body */
+body{
+    /* Aliando centro */
+    text-align: center;
+    /* Imagem */
+    background-image: url(https://bit.ly/3g7ht7X);
+    /* Remover repetição do backgound */
+    background-repeat: no-repeat;
+    /* Posicionamento da imagem */
+    background-position: center;
+    /* Altura do body */
+    height: 100vh;
+}
+
+/* Personalizando o título */
+h1 { 
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Personalizando o subtítulo com id, chamando com "#" */
+#green{
+    color: green;
+    font-style: italic;
+}
+
+#blue{
+    color: blue;
+    font-size: larger;
+}
+
+/* Personalizando class, chamando com "." */
+.color{
+    color: red;
+    font-size: 24px;
+}

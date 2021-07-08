@@ -1,0 +1,31 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<html lang="pt-br"> <!-- Idioma em inglês --> 
+<head>
+    <title>Spa da floresta</title>
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <link rel="stylesheet" href="./style/styles.css"> <!-- href sem o ./ para indicar a raiz da pasta -->
+    <link rel="icon" href="https://bityli.com/9qIPo"> 
+</head>
+<body>
+    <main>
+        <h1>Bem vindo ao SPA da floresta</h1>
+        <!-- Tag de início do formulário -->
+        <form action="" method="POST"> <!-- falta os atributos e tag de fechamento -->
+            <!-- Campo de login -->
+            <label for="login">Login:</label> <!-- for incompatível com o id -->
+            <input type="text" id="login" name="login" placeholder="Login">
+            <br><br>
+
+            <!-- Campo de senha -->
+            <label for="password">Senha:</label> <!-- for incompatível com o id -->
+            <input type="password" id="password" nome="password" placeholder="Insira sua senha"> <!-- type errado -->
+            <br><br>
+
+            <!-- Botão de envio -->
+            <button type="submit" value="Enviar" id="botao"> Enviar</button> <!-- tag errada sem fechamento -->
+        </form>
+    </main>
+</body>
+</html>

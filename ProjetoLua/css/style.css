@@ -1,0 +1,54 @@
+/* Usando fontes do google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/* Customizando todas as tags HTML(html *) famoso reset CSS */
+html *{
+    /* Margem */
+    margin: 0;
+}
+
+/* Personalizando Body */
+body{
+    /* Aliando centro */
+    text-align: center;
+    /* Imagem */
+    background-image: url(https://bit.ly/3g7ht7X);
+    /* Colocando cor de fundo */
+    background-color: black;
+    /* Remover repetição do backgound */
+    background-repeat: no-repeat;
+    /* Posicionamento da imagem */
+    background-position: center;
+    /* Altura do body */
+    height: 100vh;
+}
+
+/* Configurando tamanho das divisões das partes principais da tela */
+#top{
+    height: 20vh;
+    background-color:#0000009c;
+    font-family: 'Pangolin', cursive;
+    color:white;
+}
+
+#conteudo{
+    height: 60vh;
+    background-color: #3333339c;
+    color: red;
+    line-height: 6vh;
+}
+
+#conteudo p {
+    font-family: 'Pangolin', cursive;
+}
+
+#bot{
+    height: 20vh;
+    background-color: #6666669c;
+}
+
+/* Configurando os icones da página */
+.icones{
+    height: 25px;
+    width: 25px;
+}

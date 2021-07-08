@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+}
+
+img{
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    background-color: white;
+    border-radius: 10%;
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    padding: 0% 30%;
+}
+
+fieldset:nth-child(1) label{
+    display: block;
+}
+
+fieldset:nth-child(1) input{
+    width: 70%;
+}
+
+legend{
+    text-align: left;
+}
+
+input{
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+textarea{
+    padding: 1%;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+button{
+    margin-top: 15px;
+}
