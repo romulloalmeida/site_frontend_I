@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Seleção de idioma do site -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon shortcut" href="./img/ninja.png">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Animes</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img src="./img/anime.jpg" alt="Animes nos outdors">
+            <p>
+                Quer assistir o que?
+            </p>
+            <!-- Inicio do formulário -->
+            <form action="#" method="POST">
+                <!-- Seção de Identificação -->
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="endereco">Endereço</label>
+                    <textarea name="endereco" id="endereco" cols="30" rows="3"></textarea>
+                </fieldset>
+                <!-- Seção de Público Alvo -->
+                <fieldset>
+                    <legend>Público Alvo</legend>
+                    <input type="radio" name="alvo" id="shounen" value="shounen" checked>
+                    <label for="shounen">Shounen</label>
+                    <input type="radio" name="alvo" id="shoujo" value="shoujo">
+                    <label for="shoujo">Shoujo</label>
+                    <input type="radio" name="alvo" id="seinen" value="seinen">
+                    <label for="seinen">Seinen</label>
+                    <input type="radio" name="alvo" id="josei" value="josei">
+                    <label for="josei">Josei</label>
+                </fieldset>
+
+                <!-- Seção de Generos -->
+                <fieldset>
+                    <legend>Generos</legend>
+                    <input type="checkbox" name="comedia" id="comedia">
+                    <label for="comedia">Comédia</label>
+                    <input type="checkbox" name="drama" id="drama">
+                    <label for="drama">Drama</label>
+                    <input type="checkbox" name="acao" id="acao">
+                    <label for="acao">Ação</label>
+                    <input type="checkbox" name="romance" id="romance">
+                    <label for="romance">Romance</label>
+                    <input type="checkbox" name="isekai" id="isekai">
+                    <label for="isekai">Isekai</label>
+                    <input type="checkbox" name="mecha" id="mecha">
+                    <label for="mecha">Mecha</label>
+                    <input type="checkbox" name="misterio" id="misterio">
+                    <label for="misterio">Mistério</label>
+                    <input type="checkbox" name="sobrenatural" id="sobrenatural">
+                    <label for="sobrenatural">Sobrenatural</label>
+                </fieldset>
+
+                <!-- Seção de Animes -->
+                <fieldset>
+                    <legend>Animes</legend>
+                    <select name="animes" id="animes">
+                        <option value="">Escolha um anime</option>
+                        <optgroup label="Shounen">
+                            <option value="naruto">Naruto</option>
+                            <option value="dragonball">Dragon Ball</option>
+                            <option value="hailyuu">Haikyuu!!</option>
+                            <option value="nogame">No Game no Life</option>
+                            <option value="kimetsu">Kimetsu no Yaiba</option>
+                        </optgroup>
+                        <optgroup label="Shoujo">
+                            <option value="kiss">Itazura na Kiss</option>
+                        </optgroup>
+                        <optgroup label="Seinen">
+                            <option value="noguns">No Guns Life</option>
+                            <option value="rec">REC</option>
+                            <option value="netojuu">Netojuu no Susume</option>
+                            <option value="kaguya">Kaguya-sama wa Kokurasetai</option>
+                        </optgroup>
+                        <optgroup label="Josei">
+                            <option value="parakiss">Paradise Kiss</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+
+                <!-- Seção de Botões -->
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

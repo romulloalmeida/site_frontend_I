@@ -1,0 +1,92 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: gray;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    background-color: white;
+    border-radius: 10%;
+    animation: animacaoImagem 2s;
+}
+
+@keyframes animacaoImagem{
+    from{
+        transform: scale(1) translateY(0%);
+    }
+    to{
+        transform: scale(3) translateY(33%);
+    }
+}
+
+main{
+    text-align: center;
+    animation: mainAnimation 2s;
+}
+
+@keyframes mainAnimation {
+    from{
+        transform: scale(50%);
+    }
+    to{
+        transform: scale(100%);
+    }
+}
+
+.container{
+    padding: 0% 30%;
+}
+
+
+fieldset:nth-child(1) label{
+    display: block;
+}
+
+fieldset:nth-child(1) input{
+    width: 70%;
+}
+
+legend{
+    text-align: left;
+}
+
+input{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
+
+#shoujo:checked + label{
+    background-color: pink;
+    border-radius: 30%;
+}
+
+#shounen:checked + label{
+    background-color: lightblue;
+    border-radius: 30%;
+}
+
+#seinen:checked + label{
+    background-color: saddlebrown;
+    border-radius: 30%;
+}
+
+#josei:checked + label{
+    background-color: red;
+    border-radius: 30%;
+}
+
+textarea{
+    margin-bottom: 10px;
+    width: 70%;
+}
